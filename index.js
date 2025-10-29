@@ -21,6 +21,10 @@ const api = process.env.API_URL;
 const medicalDataRoutes = require("./routes/medicalDataRoutes");
 app.use(`${api}/data`, medicalDataRoutes);
 
+app.get("/", (req, res) => {
+  res.send("API is running 🚀");
+});
+
 // Porta dinâmica ( Render )
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
