@@ -1,4 +1,4 @@
-#API de monitoramento de dados médicos
+#API de monitoramento de dados médicos#
 
 API desenvolvida em Node + Express, com MongoDB para  realizar manipulação de dados médicos de um usuário, como data da consulta, diagnóstico, sintomas, medicamentos.
 
