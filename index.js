@@ -1,5 +1,7 @@
 const express = require("express");
 const app = express();
+const compression = require("compression");
+app.use(compression());
 // para tornar o servidor acessível em qualquer lugar
 const cors = require("cors");
 const bodyParser = require("body-parser");
